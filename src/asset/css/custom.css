@@ -1,0 +1,1400 @@
+
+
+/*========================================*/
+/*************BESIC SET UP*****************/
+/*========================================*/
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body,html
+{
+    color: white ;
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    text-rendering: optimizeLegibility;
+    line-height: 1.5;
+}
+
+
+.row
+{
+    width: 114rem;
+    margin: auto;
+}
+
+section
+{
+    overflow: hidden;
+    padding: 4rem 0rem;
+}
+
+
+
+/*========================================*/
+/***********REUSEABLE COMPONENT************/
+/*========================================*/
+h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.5rem;
+   
+}
+
+h2::after
+{
+    content: '';
+    width: 7rem;
+    height: 1rem;
+    background-color: #4974FE;
+    display: block;
+    margin: auto;
+    border-radius: 5rem;
+    margin-top: 2rem;
+}
+
+h3{
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #494B50;
+}
+
+
+.col p
+{
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #7A7C81;
+    margin-top: 1rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========================================*/
+/*************HERO SECTION*****************/
+/*========================================*/
+.hero-section
+{
+    width: 100%;
+    height: 90vh;
+    background-image:linear-gradient(rgba(1,1,1,0.5),rgba(1,1,1,0.8)),url('../image/hero-bg.jpg');
+
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+.hero-text
+{
+    width: 111rem;
+    height: 34rem;;
+    position:absolute;
+
+    top: 0rem;
+    bottom: 0rem;
+    left: 0rem;
+    right: 0rem;
+
+    margin: auto;
+
+    margin-top: 20rem;
+    text-align: center;
+}
+
+.hero-text h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 5rem;
+}
+
+.hero-text h4{
+    margin-top: 1.5rem;
+    letter-spacing: 0.3rem;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(241, 241, 241, 0.918);
+}
+
+.hero-text button
+{
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+
+/*========================================*/
+/***********SERVICES SECTION***************/
+/*========================================*/
+
+
+.grid-services
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+  
+    grid-gap: 3rem;
+}
+
+.services-section h2
+{
+    color:#4974FE;
+    margin-top: 2rem;
+}
+
+
+
+.services-img-div
+{
+    width: 10.8rem;
+    height: 10.8rem;
+    margin: auto;
+}
+
+.services-img
+{
+   width: 100%;
+}
+
+.services-section .col
+{
+    border:0.1rem solid rgba(1,1,1,0.3);
+    border-radius: 0.2rem;
+    margin-top: 6rem;
+    padding: 6rem 2rem;
+
+    box-shadow: 0.3rem 0.3rem 0.5rem rgba(1,1,1,0.3);
+    transition: 0.5s;
+}
+
+
+
+.services-section .col:hover
+{
+    box-shadow: -0.3rem -0.3rem 0.5rem rgba(1,1,1,0.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========================================*/
+/**********TOP NAVIGATION SECTION*********/
+/*========================================*/
+
+
+
+.topnavigation-brand
+{
+    font-weight: 600;
+    font-size: 2.6rem;
+    font-family:'Montserrat', sans-serif;
+    color: white !important;
+    text-decoration: none;
+    
+}
+
+.topnavigation-brand-scroll
+{
+    font-weight: 600;
+    font-size: 2.6rem;
+    font-family:'Montserrat', sans-serif;
+    color: #4974FE !important;
+    text-decoration: none;
+}
+
+.topnavigation-background
+{
+    font-size: 1.6rem;
+    background-color:rgba(0, 0, 0, 0.0) !important;
+}
+
+.topnavigation-background-scroll
+{
+    font-size: 1.6rem;
+    background-color:rgba(0, 0, 0, 0.664) !important;
+    color: #4974FE !important;
+
+    border-bottom: 0.1rem solid rgba(255, 255, 255, 0.767);
+
+    transition: 1s;
+}
+
+.top-navigation-list
+{
+    color:white ;
+    padding-right: 2rem !important;
+    font-family:'Montserrat', sans-serif !important;
+    text-decoration: none;
+}
+
+
+
+.top-navigation-list-scroll
+{
+    color:#4974FE !important;
+    padding-right: 2rem !important;
+    font-family:'Montserrat', sans-serif !important;
+    text-decoration: none;
+}
+
+.top-navigation-list:hover
+{
+    color:#bac1d3 !important;
+     
+}
+
+
+
+.top-navigation-list-scroll:hover
+{
+    color:rgb(255, 255, 255) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========================================*/
+/************TECHNOLOGY SECTION***********/
+/*========================================*/
+
+.technology-section
+{
+    margin-bottom: 3rem;
+}
+
+.technology-section h2
+{
+    color: #4974FE;
+}
+
+.technology-section p
+{
+    text-align: justify;
+}
+
+
+
+
+.technology-section tspan
+{
+    font-size: 1.6rem !important;
+}
+
+
+.technology-section .col
+{
+    margin-top: 6rem;
+}
+
+
+.grid-technology
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 3rem;
+    grid-auto-rows: minmax(40rem,auto);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========================================*/
+/************SUMMARY SECTION***********/
+/*========================================*/
+.summary-section
+{
+    width: 100%;
+    
+
+    background-image: linear-gradient(rgba(1,1,1,0.6),rgba(1,1,1,0.6)),url('../image/summary-bg.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+.summary-section h2::after
+{
+    background-color: white;
+}
+
+
+.grid-summary
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+}
+
+.grid-increas-bar
+{
+    height: 40rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+
+    align-content: center;
+}
+
+
+.summary-section h1
+{
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 600;
+    
+
+}
+
+.summary-section h4
+{
+    text-align: center;
+    font-size:2rem;
+    margin-top: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    color: #ccd2e2b0;
+   
+}
+
+.summary-section h4::after
+{
+    content: '';
+    width: 10rem;
+    height: 0.1rem;
+    background-color: #bac1d385;
+    display: block;
+    margin: auto;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+}
+
+
+
+.summary-section .card-body
+{
+    background-color: white;
+    width: 30rem;
+    margin: auto;
+    padding: 4rem 2rem;
+    border-radius: 0.5rem;
+    margin-top: 6rem;
+    
+}
+
+.summary-section .card-title
+{
+    color: black !important;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600 !important;
+    text-align: justify;
+    margin-bottom:3rem;
+}
+
+.summary-section .card-body p
+{
+    text-align: justify;
+    margin-top: 2rem;
+}
+
+.font-awesome-icon
+{
+    color:#4974FE; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========================================*/
+/**********RECENT PROJECT SECTION*********/
+/*========================================*/
+
+.recentProject-section h2
+{
+    color: #4974FE;
+}
+
+.recentProject-section .card-title
+{
+    color:rgba(0, 0, 0, 0.658);
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+
+
+.grid-recentProject
+{
+    display: grid; 
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 3rem;
+}
+
+.recentProject-img
+{
+    width: 100%;
+}
+
+.recentProject-section .col
+{
+   text-align: center;
+   margin-top: 4rem;
+   border:0.1rem solid rgba(0, 0, 0, 0.452);
+   border-radius: 0.2rem;
+   padding-bottom: 2rem;
+
+   box-shadow: 0.3rem 0.3rem 0.5rem rgba(1,1,1,0.3);
+    transition: 0.5s;
+
+   
+}
+
+.recentProject-section a
+{
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.recentProject-section button
+{
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+
+
+
+
+.recentProject-section .col:hover
+{
+    box-shadow: -0.3rem -0.3rem 0.5rem rgba(1,1,1,0.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========================================*/
+/**************COURSE SECTION**************/
+/*========================================*/
+
+.course-section h2
+{
+    color:#4974FE ;
+}
+
+.course-section h4
+{
+    text-align: justify;
+
+    
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 2rem;
+    
+    
+    color: #494B50;
+
+}
+
+.course-section p
+{
+    text-align: justify;
+
+}
+
+.course-section h2::after
+{
+    margin-bottom: 5rem;
+}
+
+.grid-course
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 3rem;
+}
+
+
+
+
+.course-img
+{
+    width: 90%;
+}
+
+.course-image-div
+{
+    width: 45%;
+    float: left;
+    padding: 1rem;
+}
+
+
+.course-description-div
+{
+    width: 45%;
+    float: left;
+    padding: 1rem;
+}
+
+.course-section a
+{
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========================================*/
+/***************VIDEO SECTION**************/
+/*========================================*/
+
+.video-section h3
+{
+    color:#4974FE;
+}
+
+
+.card-video
+{
+ 
+    box-shadow: 0.2rem 0.2rem 0.5rem gray;
+
+    padding: 10rem 3rem;
+}
+
+
+.card-video .video-icon
+{
+    font-size: 4rem;
+    color: #4974FE;
+    margin-top: 1.7rem;
+}
+
+
+
+
+
+.card-video .video-icon:hover
+{
+    cursor: pointer;
+}
+
+
+
+.modal-btn
+{
+    
+    font-size: 1.6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========================================*/
+/***************CLIENT SECTION**************/
+/*========================================*/
+
+
+
+.client-section h2
+{
+    color: #494B50;
+}
+
+
+
+
+.client-section .client-image-div
+{
+    width: 10rem;
+    margin: auto;
+}
+
+.client-section .client-img
+{
+    margin-top: 4rem;
+    width: 10rem;
+    height: 10rem;
+    border:0.2rem solid #4974FE;
+    border-radius: 50%;
+}
+
+.client-section .card-client
+{
+    width: 80% !important;
+    margin: auto;
+    padding: 3rem;
+  
+}
+
+
+
+.client-section p
+{
+    font-size: 1.5rem;
+    text-align: center !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #7A7C81;
+    margin-top: 1rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========================================*/
+/**************FOOTER SECTION*************/
+/*========================================*/
+
+.footer-section
+{
+    box-shadow: 0rem 0.1rem 0.3rem rgba(0, 0, 0, 0.575);
+}
+
+
+.footer-section .row
+{
+    width: 100% ;
+    padding: 0rem 4rem;
+
+}
+
+.grid-footer
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 3rem;
+}
+
+.footer-section h3
+{
+    text-align: justify;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+
+}
+.footer-section p a
+{
+    text-decoration: none;
+}
+
+.footer-section p
+{
+    text-align: justify;
+}
+
+
+.grid-footer .col:nth-child(2) a,.grid-footer .col:nth-child(3) a,.grid-footer .col:nth-child(4) a
+{
+    color: #7A7C81;
+}
+
+
+.grid-footer .col:nth-child(3) a:hover,.grid-footer .col:nth-child(4) a:hover
+{
+    color: #4974FE;
+}
+
+
+
+
+
+.footer-end-section
+{
+   
+    font-size: 1.4rem;
+    text-align: center;
+    background-color:#4974FE;
+    
+}
+
+
+.footer-end-section a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-end-section a:hover{
+    
+    color: rgba(255, 255, 255, 0.582);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========================================*/
+/*********EVERY PAGE TOP SECTION***********/
+/*========================================*/
+
+.every-page-top-section
+{
+    height: 50vh;
+    width: 100%;
+
+    background-image: linear-gradient(rgba(1,1,1,0.5),rgba(1,1,1,0.8)),url('../image/summary-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.every-page-top-section h2
+{
+    margin-top: 10rem;
+    font-size: 4rem;
+}
+
+.every-page-top-section h2::after
+{
+    display: none;
+}
+
+
+
+
+
+
+/*========================================*/
+/*********ABOUT DESCRIPTION SECTION********/
+/*========================================*/
+
+.about-description-section h2::after
+{
+    display: none;
+}
+
+.about-description-section h2
+{
+    color: black;
+    text-align: justify;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-description-section hr
+{
+    
+    color: #7A7C81;
+    
+}
+
+.about-description-section p
+{
+    font-size: 1.5rem;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #7A7C81;
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+/*========================================*/
+/***********CONTACT FORM SECTION**********/
+/*========================================*/
+
+.grid-contact-form
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 3rem;
+}
+
+.grid-contact-form .col:nth-child(2) h3,.grid-contact-form .col:nth-child(2) p
+{
+    text-align: justify !important;
+}
+
+.grid-contact-form .col:nth-child(1) h3
+{
+    text-align: justify !important;
+    
+}
+
+
+.contact-common label
+{
+    font-size: 1.3rem;
+    color:rgba(0, 0, 0, 0.705);
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3rem;
+}
+
+.contact-common input
+{
+    width: 90%;
+    height: 4rem;
+    margin-top: 0.7rem;
+    border:0.15rem solid rgba(0, 0, 0, 0.212);
+    border-radius: 0.4rem;
+
+    font-size: 1.4rem;
+}
+
+.contact-common textarea
+{
+    width: 90%;
+    height: 15rem;
+    border:0.15rem solid rgba(0, 0, 0, 0.212);
+    border-radius: 0.4rem;
+    margin-top: 0.7rem;
+
+    font-size: 1.4rem;
+}
+
+.contact-btn input
+{
+    font-size: 1.5rem;
+    margin-top: 0.7rem;
+    background-color:hsl(226, 95%, 50%) ;
+    border:0rem;
+    padding: 0.8rem 2rem;
+    color: white;
+    border-radius: 0.4rem;
+}
+
+
+
+
+
+
+/*========================================*/
+/*********REFUND POLICY SECTION**********/
+/*========================================*/
+
+
+.refund-policy-description-section ul li
+{
+    font-size: 1.6rem;
+    color:#7A7C81;
+    margin-top: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========================================*/
+/*********PROJECT DETAILS SECTION**********/
+/*========================================*/
+
+.grid-project-details
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 3rem;
+}
+
+
+
+.project-details-section h2
+{
+    color: black;
+    text-align: justify;
+}
+
+.project-details-section h2::after
+{
+    display: none;
+}
+
+
+.project-details-section p
+{
+    margin-top: 2rem;
+    text-align: justify;
+}
+
+.project-details-section ul li
+{
+    font-size: 1.5rem;
+    color:#7A7C81;
+    margin-top: 0.6rem;
+}
+
+.project-details-section ul
+{
+    margin-top: 2rem;
+}
+
+.project-details-section .project-details-btn
+{
+    font-size: 1.6rem;
+    margin-top: 2rem;
+}
+
+.project-details-img
+{
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*========================================*/
+/**********COURSE DETAILS SECTION**********/
+/*========================================*/
+
+.course-details-section
+{
+    
+    width: 100%;
+
+    background-image: linear-gradient(rgba(1,1,1,0.5),rgba(1,1,1,0.8)),url('../image/summary-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.course-details-section h2::after
+{
+    display: none;
+}
+
+
+.grid-course-details
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 3rem;
+}
+
+
+
+
+.course-details-section h2
+{
+    text-align: justify;
+    margin-top: 9rem;
+}
+
+.course-details-section p
+{
+    text-align: justify;
+    margin-top: 9rem;
+}
+
+
+.course-details-section h5
+{
+    font-size: 1.5rem;
+    color: yellow;
+    margin-top: 1rem;
+}
+
+
+
+.grid-course-details-end
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 3rem;
+}
+
+.course-details-end-section h2::after
+{
+    display: none;
+}
+
+.course-details-end-section h2
+{
+    text-align: justify;
+    margin-top: 6rem;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.course-details-end-section p
+{
+    text-align: justify;
+    margin-top: 2rem;
+}
+
+.course-details-end-icon
+{
+    color: #4974FE;
+}
+
+.course-details-end-btn
+{
+    font-size: 1.6rem;
+    margin-top: 2rem;
+}
+.course-details-end-video
+{
+    height: 100%;
+    margin-top: 6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========================================*/
+/*************RESPONSIVE*****************/
+/*========================================*/
+
+
+@media screen and (max-width:1200px)
+{
+    
+
+    .row
+    {
+        width: 100%;
+        padding: 0rem 2rem;
+    }
+
+    
+}
+
+
+@media screen and (max-width:1024px)
+{
+
+    .grid-technology
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .technology-section tspan
+    {
+        font-size: 0.8rem !important;
+    }
+
+    .grid-course
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .grid-footer
+    {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
+
+
+
+@media  screen and (max-width:992px)
+{
+    .topnavigation-background
+    {
+        background-color: rgba(0, 0, 0, 0.63) !important;
+        
+        text-align: center;
+    }
+
+    .topnavigation-background-scroll
+    {   
+        text-align: center;
+    }
+
+    
+}
+
+@media screen and (max-width:768px)
+{
+    .hero-text h1{
+        
+        font-size: 3rem;
+    }
+    
+    .grid-services
+    {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .grid-summary
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .summary-section .card-body
+    {
+        
+        width: 80%;
+        margin-top: 1rem;
+    }
+
+    .grid-increas-bar
+    {
+        height: 20rem;
+
+    }
+
+    .grid-recentProject
+    {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .grid-recentProject
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .course-image-div
+    {
+        width: 100%;
+    }
+
+
+    .course-description-div
+    {
+        width: 100%;
+    
+    }
+
+    .grid-footer
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .grid-contact-form
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+       
+    
+    .grid-project-details
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .grid-course-details
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+       
+    .grid-course-details-end
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media screen and (max-width:480px)
+{
+    
+    .grid-services
+    {
+        
+      grid-template-columns: repeat(1,1fr);
+
+    
+    }
+
+    .grid-recentProject
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+   
+    
+}
